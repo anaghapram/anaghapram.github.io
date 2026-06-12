@@ -113,9 +113,11 @@ a:hover {
 .profile-photo {
   width: 100%;
   max-width: 210px;
+  height: 260px;
   display: block;
   margin: 0 auto 1rem;
-  border-radius: 50%;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .info-list p {
